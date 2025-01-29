@@ -222,3 +222,22 @@ body {
         transform: scaleX(0.85);
     }
 }
+
+header {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.gallery-btn {
+    background-color: #f08080;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.gallery-btn:hover {
+    background-color: #d62828;
+}
