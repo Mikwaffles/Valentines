@@ -4,6 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #fae1dd;
+    padding-top: 80px;
 }
 
 .container {
@@ -224,20 +225,28 @@ body {
 }
 
 header {
-    position: absolute;
-    top: 20px;
-    right: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f08080;
+    position: fixed; /* Makes the header fixed at the top */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensure header stays on top */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a small shadow */
 }
 
-.gallery-btn {
-    background-color: #f08080;
+.gallery-btn, .timeline-btn {
+    background-color: #f8ad9d;
     color: white;
-    padding: 10px 15px;
+    padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    font-size: 16px;
 }
 
-.gallery-btn:hover {
+.gallery-btn:hover, .timeline-btn:hover {
     background-color: #d62828;
 }
