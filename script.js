@@ -9,3 +9,9 @@ $(document).ready(function(){
         },"slow");
     });
     });
+    
+    function toggleMenu() {
+        const navLinks = document.getElementById("navLinks");
+        navLinks.classList.toggle("show");
+    }
+    
