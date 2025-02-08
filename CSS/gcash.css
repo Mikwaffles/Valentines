@@ -64,10 +64,18 @@ footer {
     text-align: center;
     padding: 15px;
     position: absolute;
-    width: 100%;
+    left: 0;
+    right: 0;
     bottom: 0;
     font-size: 14px;
     color: white;
+}
+
+/* Prevent horizontal scrolling */
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
 }
 
 /* Responsive Styles for GCash Page */
@@ -84,8 +92,5 @@ footer {
         width: 220px;
         height: 450px;
     }
-
-    footer {
-        width: 90vw;
-    }
 }
+
