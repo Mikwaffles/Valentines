@@ -13,3 +13,4 @@ $(document).ready(function () {
     $(window).on("scroll", revealMemories);
     revealMemories();
 });
+
